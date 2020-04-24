@@ -2,8 +2,8 @@
 
 **nestedSortable** is a jQuery plugin that extends jQuery Sortable UI functionalities to nested lists.  
 
-## Meteor Installation
-    meteor add ilikenwf:nested-sortable
+## Installation
+    npm install ajb99/nestedSortable --save-dev
 
 ## What's new in version 2.0
 
