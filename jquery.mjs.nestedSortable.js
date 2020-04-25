@@ -74,9 +74,10 @@
 
 			// if we have a tree with expanding/collapsing functionality,
 			// force 'intersect' tolerance method
-			// if (this.options.isTree && this.options.expandOnHover) {
-			//	this.options.tolerance = "intersect";
-			// }
+			if (this.options.isTree && this.options.expandOnHover) {
+				// this.options.tolerance = "intersect";
+				this.options.tolerance = "pointer";
+			}
 
 			$.ui.sortable.prototype._create.apply(this, arguments);
 
